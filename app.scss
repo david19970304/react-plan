@@ -1,0 +1,43 @@
+// @charset 'utf-8';
+// font cdnjs
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+
+.plane-name{
+    display: flex;
+    margin-left: auto;
+}
+.box plan-box{
+
+    width: 500px;
+}
+.table{
+    width: 90%;
+   
+}
+thead tr{
+    text-align: center;
+}
+
+tbody tr{
+    text-align: center;
+}
+
+tfoot tr{
+    text-align: center;
+}
+
+.row_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.row_btn button{
+    width: 100px;
+    height: 30px;
+    color: #666;
+    background-color: transparent;
+    &:hover{
+        color: turquoise;
+    }
+}
